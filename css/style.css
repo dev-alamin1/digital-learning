@@ -25,4 +25,12 @@ body{
     text-decoration: none;
   }
 
+  /* meadia query for course inof */
+
+  @media screen and (max-width:576px) {
+      .course-info{
+        margin-top:15px;
+      }
+  }
+
 
