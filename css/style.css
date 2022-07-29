@@ -14,7 +14,7 @@ body{
     bottom:0;
     left:0;
     right:0;
-    background:rgba(0,0,0,0.3);
+    background:rgba(0,0,0,0.5);
   }
 
   .company-trust-section ul, footer ul{
@@ -34,3 +34,22 @@ body{
   }
 
 
+  /* media query for slider text responsive mobile device*/
+
+  @media screen and (max-width:576px) {
+      .carousel-caption{
+        top: 2px;
+      }
+      .carousel-caption h1{
+        margin-bottom: 2px;
+      }
+  }
+
+  @media screen and (min-width:992px) {
+    .carousel-caption{
+      bottom: 100px;
+    }
+    .carousel-caption h1{
+      font-weight: bold;
+    }
+}
